@@ -1,4 +1,11 @@
-//Two Sum
+//Two Sum Solution 1
+
+/* Description
+nums[0]->nums[length-1],nums[length-2],...,nums[1]
+nums[1]->nums[length-1],nums[length-2],...,nums[2]
+nums[2]->nums[length-1],nums[length-2],...,nums[3]
+...
+*/
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -19,10 +26,5 @@ class Solution {
     }
 }
 
-/* Description
-nums[0]->nums[length-1],nums[length-2],...,nums[1]
-nums[1]->nums[length-1],nums[length-2],...,nums[2]
-nums[2]->nums[length-1],nums[length-2],...,nums[3]
-...
-*/
+
 
