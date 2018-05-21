@@ -64,7 +64,7 @@ class Solution {
 }
 
 
-//solution 2
+//solution 3
 //未使用stack类，但本质仍是stack
 
 public class Solution {
@@ -106,7 +106,7 @@ public class Solution {
 }
 
 
-//solution 3 新颖思路
+//solution 4 新颖思路
 //以数学形式表现stack，三位数分别代表三类括号
 class Solution {
     public boolean isValid(String s) {
