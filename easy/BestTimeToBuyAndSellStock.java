@@ -37,4 +37,18 @@ class Solution {
       }
         return result;
     }
-  }
+}
+
+
+//Solution 3
+class Solution {
+    public int maxProfit(int[] prices) {
+        int temp = 0;
+        int sum = Integer.MAX_VALUE;
+        for (int i = 0; i < prices.length ; i++) {
+                sum = Math.min(sum,prices[i]);
+                temp = Math.max(temp,prices[i]-sum);
+        }
+        return temp;
+    }
+}
